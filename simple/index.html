@@ -18,7 +18,7 @@
                     document.querySelector("#message").innerHTML = event.data;
                 };
                 connection.onclose = function(){
-                    alert("Ciao!");
+                    alert("Connection lost.");
                 };
                 connection.onopen = function(){
                     alert("Conexion exitosa...");

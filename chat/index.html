@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dashboard</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no" />
+        <link rel="stylesheet" href="css/dashboard.css" />
+    </head>
+    <body>
+        <aside id="default-popup" class="avgrund-popup">
+            <h2>Mensaje</h2>
+            <textarea id="message"></textarea>
+            <button id="send">Enviar</button>
+        </aside>
+        <article class="avgrund-contents">
+            <h1>Chat Simple</h1>
+            <p>Para enviar un mensaje dale click al siguiente botón.</p>
+            <button id="open">Enviar un Mesaje</button>
+            <ul id="chat" class="chat">
+                
+            </ul>
+            <small>Este ejemplo usa Avgrund por: <a href="http://twitter.com/hakimel">@hakimel</a></small>
+        </article>
+        <script type="text/javascript" src="js/avgrund.js"></script>
+        <script type="text/javascript" src="js/websockets.js"></script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
+    </body>
+</html>
